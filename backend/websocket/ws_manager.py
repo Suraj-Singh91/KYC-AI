@@ -1,5 +1,5 @@
 """
-KYCortex AI — WebSocket Manager
+KYC-AI — WebSocket Manager
 Manages active WebSocket connections mapped by session_id.
 """
 import json

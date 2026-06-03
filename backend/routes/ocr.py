@@ -1,5 +1,5 @@
 """
-KYCortex AI — OCR Routes
+KYC-AI — OCR Routes
 POST /ocr/extract — accepts a base64 image and returns extracted KYC fields.
 """
 from fastapi import APIRouter, HTTPException

@@ -1,5 +1,5 @@
 """
-KYCortex AI — KYC Routes v2
+KYC-AI — KYC Routes v2
 New flow: Welcome → Aadhaar capture → PAN capture → Face verify → Confirm → Done
 Each document step retries up to 3 times before giving a final error.
 """

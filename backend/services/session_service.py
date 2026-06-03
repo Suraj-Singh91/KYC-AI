@@ -1,5 +1,5 @@
 """
-KYCortex AI — Session Service v2
+KYC-AI — Session Service v2
 New KYC flow: welcome → request_aadhaar → aadhaar_processing → request_pan
               → pan_processing → request_face → face_check → confirm → done
 """

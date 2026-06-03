@@ -1,5 +1,5 @@
 """
-KYCortex AI — OCR Service v2
+KYC-AI — OCR Service v2
 Dedicated extraction and validation for Aadhaar and PAN cards.
 """
 import re

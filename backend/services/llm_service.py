@@ -1,5 +1,5 @@
 """
-KYCortex AI — Agent/LLM Service (v2)
+KYC-AI — Agent/LLM Service (v2)
 New flow: Welcome → Aadhaar → PAN → Face → Confirm → Done
 Voice-friendly messages (no markdown symbols that TTS reads aloud).
 Retry messages for each failed step.
@@ -14,7 +14,7 @@ AGENT_SCRIPT: dict[str, list[str]] = {
 
     # ── Onboarding ──────────────────────────────────────────────────────────
     "welcome": [
-        "Welcome to KYCortex AI! I am Cortex, your AI-powered KYC assistant. "
+        "Welcome to KYC-AI! I am Cortex, your AI-powered KYC assistant. "
         "I will guide you through a quick 3-step identity check: "
         "first your Aadhaar card, then your PAN card, and finally a face scan. "
         "Let us begin. Please keep your documents ready and make sure you are in a well-lit area.",
@@ -105,7 +105,7 @@ AGENT_SCRIPT: dict[str, list[str]] = {
     ],
     "done": [
         "KYC process complete! Your application has been submitted for review. "
-        "You will receive a confirmation shortly. Thank you for using KYCortex AI!",
+        "You will receive a confirmation shortly. Thank you for using KYC-AI!",
     ],
 
     # ── Fallback ──────────────────────────────────────────────────────────────

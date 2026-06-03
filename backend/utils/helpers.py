@@ -1,5 +1,5 @@
 """
-KYCortex AI — Utility helpers
+KYC-AI — Utility helpers
 """
 import base64
 import io

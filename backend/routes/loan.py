@@ -1,5 +1,5 @@
 """
-KYCortex AI — Loan Eligibility Routes
+KYC-AI — Loan Eligibility Routes
 POST /loan/check — basic eligibility check based on session KYC data.
 """
 from fastapi import APIRouter, HTTPException

@@ -1,5 +1,5 @@
 """
-KYCortex AI — Face Verification Service
+KYC-AI — Face Verification Service
 Validates face detection confidence from the client-side MediaPipe results.
 """
 from PIL import Image

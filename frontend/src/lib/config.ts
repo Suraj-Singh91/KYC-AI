@@ -1,5 +1,5 @@
 /**
- * KYCortex AI — Centralised backend config
+ * KYC-AI — Centralised backend config
  * Reads from Vite env vars so production/staging/local all work without code changes.
  *
  * .env.local          → local dev  (ws://localhost:8000)
@@ -15,5 +15,5 @@ const http = rawUrl.replace(/\/$/, "");
 // Convert http(s) → ws(s) for WebSocket
 const ws = http.replace(/^http/, "ws");
 
-export const BACKEND_HTTP = http;   // e.g. "https://kycortex.railway.app"
-export const BACKEND_WS   = ws;     // e.g. "wss://kycortex.railway.app"
+export const BACKEND_HTTP = http;   // e.g. "https://kyc-ai.railway.app"
+export const BACKEND_WS   = ws;     // e.g. "wss://kyc-ai.railway.app"

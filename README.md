@@ -1,8 +1,8 @@
-# 🚀 KYCortex AI
+# 🚀 KYC-AI
 
 ### AI-Powered Video KYC & Loan Onboarding System
 
-KYCortex AI is a real-time, AI-driven KYC (Know Your Customer) platform that enables seamless identity verification using **live video, face detection, document capture with OCR, and an interactive AI agent**.
+KYC-AI is a real-time, AI-driven KYC (Know Your Customer) platform that enables seamless identity verification using **live video, face detection, document capture with OCR, and an interactive AI agent**.
 
 ---
 
@@ -65,7 +65,7 @@ KYCortex AI is a real-time, AI-driven KYC (Know Your Customer) platform that ena
 ## 📁 Project Structure
 
 ```
-KYCortex-AI/
+KYC-AI/
 │
 ├── backend/
 │   ├── app.py                    # FastAPI entry point
@@ -169,7 +169,7 @@ Frontend runs on: `http://localhost:8080` (or `http://localhost:5173`)
 ### 📥 From Backend → Frontend
 
 ```json
-{ "type": "AGENT_MESSAGE", "step": "welcome", "message": "Welcome to KYCortex AI..." }
+{ "type": "AGENT_MESSAGE", "step": "welcome", "message": "Welcome to KYC-AI..." }
 { "type": "STEP_CHANGE", "step": "face_check", "message": "Face detected! Stay still..." }
 { "type": "OCR_RESULT", "data": { "name": "...", "dob": "...", "id_number": "..." } }
 { "type": "FACE_STATUS", "verified": false, "confidence": 45.2 }
@@ -251,5 +251,5 @@ This project is open-source and available under the MIT License.
 
 ## 💡 Author
 
-Built with ❤️ by **Srishanth**
-Backend developed by **KYCortex AI Team**
+Built with ❤️ by **Suraj Singh**
+Backend developed by **KYC-AI Team**

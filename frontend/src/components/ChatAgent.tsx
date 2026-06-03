@@ -47,7 +47,7 @@ function speakText(text: string, voiceEnabled: boolean) {
 
 export const ChatAgent = ({ sessionId, onStepChange, onOcrResult }: ChatAgentProps) => {
   const [messages, setMessages]       = useState<Message[]>([
-    { id: 1, sender: "ai", text: "Welcome to KYCortex AI. Connecting to your AI agent...", time: now() },
+    { id: 1, sender: "ai", text: "Welcome to KYC-AI. Connecting to your AI agent...", time: now() },
   ]);
   const [input, setInput]             = useState("");
   const [typing, setTyping]           = useState(false);

@@ -1,5 +1,5 @@
 """
-KYCortex AI — FastAPI Application Entry Point
+KYC-AI — FastAPI Application Entry Point
 Run with: uvicorn app:app --reload --port 8000
 """
 from fastapi import FastAPI
@@ -12,7 +12,7 @@ from routes import kyc, ocr, face, loan
 #  App Configuration
 # --------------------------------------------------------------------------- #
 app = FastAPI(
-    title="KYCortex AI",
+    title="KYC-AI",
     description="AI-Powered Video KYC & Loan Onboarding Backend",
     version="1.0.0",
     docs_url="/docs",
@@ -75,7 +75,7 @@ async def health_check():
 
     return {
         "status": "ok",
-        "service": "KYCortex AI Backend",
+        "service": "KYC-AI Backend",
         "version": "1.0.0",
         "python": sys.version,
         "platform": platform.system(),
@@ -87,7 +87,7 @@ async def health_check():
 @app.get("/", tags=["Root"])
 async def root():
     return {
-        "message": "KYCortex AI Backend is running 🚀",
+        "message": "KYC-AI Backend is running 🚀",
         "docs": "/docs",
         "health": "/health",
         "endpoints": {

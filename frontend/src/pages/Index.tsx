@@ -134,7 +134,7 @@ const Index = () => {
               <ShieldCheck className="w-5 h-5 text-background" />
             </div>
             <div>
-              <h1 className="text-xl font-bold tracking-tight gradient-text">KYCortex AI</h1>
+              <h1 className="text-xl font-bold tracking-tight gradient-text">KYC-AI</h1>
               <p className="text-xs text-muted-foreground font-mono uppercase tracking-wider">
                 AI Video KYC & Loan Onboarding
               </p>
@@ -243,7 +243,7 @@ const Index = () => {
         </div>
 
         <footer className="mt-10 text-center text-xs font-mono text-muted-foreground/60 uppercase tracking-widest">
-          KYCortex AI · End-to-end encrypted · Powered by Cortex Engine
+          KYC-AI · End-to-end encrypted · Powered by Cortex Engine
         </footer>
       </main>
     </div>

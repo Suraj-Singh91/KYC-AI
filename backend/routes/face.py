@@ -1,5 +1,5 @@
 """
-KYCortex AI — Face Verification Routes
+KYC-AI — Face Verification Routes
 POST /face/verify — validates face confidence score from client.
 """
 from fastapi import APIRouter
