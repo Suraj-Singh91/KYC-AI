@@ -2,6 +2,8 @@
 
 ### AI-Powered Video KYC & Loan Onboarding System
 
+🔗 **Live Demo:** [https://ky-cortex-ai.vercel.app/](https://ky-cortex-ai.vercel.app/)
+
 KYC-AI is a real-time, AI-driven KYC (Know Your Customer) platform that enables seamless identity verification using **live video, face detection, document capture with OCR, and an interactive AI agent**.
 
 ---
